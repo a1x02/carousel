@@ -8,7 +8,15 @@ module.exports = {
         'arrow-right': "url('src/img/icon-arrow-right.svg')"
       },
       height: {
-        '854px': '854px'
+        '854px': '854px',
+        '9px': '9px',
+        '50px': '50px'
+      },
+      width: {
+        '50px': '50px'
+      },
+      backgroundColor: {
+        'dark': '#111111'
       }
     },
   },

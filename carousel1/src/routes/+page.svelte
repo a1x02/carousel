@@ -5,5 +5,6 @@
 </script>
 
 <div class="w-full relative">
+    <div class="h-50px"></div>
     <Carousel />
 </div>
