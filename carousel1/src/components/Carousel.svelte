@@ -16,16 +16,22 @@
                     "src/img/Warhammer.jpeg",
                     "src/img/CyberPunk.png"]
 
-    let counter = 0
+    let counter = 1
+    let slider
+
+    function changeSlider(newValue) {
+        slider = newValue
+    }
 
     function changeCounter(newValue) {
         counter = newValue
+        console.log(counter)
     }
 </script>
 
-<div class="w-full flex relative">
-        <Slider counter={counter}/>
+<div class="w-full flex relative overflow-hidden">
+        <Slider counter={counter} changeSlider={changeSlider}/>
     <!-- <div class="w-full flex h-full"> -->
-        <Controls changeCounter={changeCounter} counter={counter}/>
+        <Controls changeCounter={changeCounter} counter={counter} slider={slider}/>
     <!-- </div> -->
 </div>

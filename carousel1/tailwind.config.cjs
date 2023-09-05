@@ -13,7 +13,8 @@ module.exports = {
         '50px': '50px'
       },
       width: {
-        '50px': '50px'
+        '50px': '50px',
+        '100vw': '100vw'
       },
       backgroundColor: {
         'dark': '#111111'
