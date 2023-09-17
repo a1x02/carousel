@@ -1,0 +1,5 @@
+@import url('../src/vendor/normalize.css');
+@import url('../src/vendor/fonts/Inter-Web/inter.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

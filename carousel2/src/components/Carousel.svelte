@@ -18,7 +18,5 @@
 
 <div class="w-full flex relative overflow-hidden">
         <Slider counter={counter} changeSlider={changeSlider}/>
-    <!-- <div class="w-full flex h-full"> -->
         <Controls changeCounter={changeCounter} counter={counter} slider={slider}/>
-    <!-- </div> -->
 </div>

@@ -5,7 +5,15 @@ module.exports = {
     extend: {
       backgroundImage: {
         'arrow-left': "url('src/img/icon-arrow-left.svg')",
-        'arrow-right': "url('src/img/icon-arrow-right.svg')"
+        'arrow-right': "url('src/img/icon-arrow-right.svg')",
+        '0': "url('src/img/Escapists2_0.png')",
+        '1': "url('src/img/Escapists2_1.png')",
+        '2': "url('src/img/Escapists2_2.png')",
+        '3': "url('src/img/Escapists2_3.png')",
+        '4': "url('src/img/Escapists2_4.png')",
+        '5': "url('src/img/Escapists2_5.png')",
+        '6': "url('src/img/Escapists2_6.png')",
+        '7': "url('src/img/Escapists2_7.png')"
       },
       height: {
         '854px': '854px',
@@ -16,7 +24,8 @@ module.exports = {
         '80%': '80%',
         '0.5vw': '0.5vw',
         '1vw': '1vw',
-        '70vw': '70vh'
+        '70vw': '80vh',
+        't': '5vw'
       },
       width: {
         '50px': '50px',
@@ -32,13 +41,16 @@ module.exports = {
         '2.5vw': '2.5vw',
         '1vw': '1vw',
         '15vw': '15vw',
-        '2vw': '2vw'
+        '2vw': '2vw',
+        '5vw': '10vw'
       },
       minWidth: {
         '50px': '50px'
       },
       backgroundColor: {
-        'dark': '#111111'
+        'dark': '#111111',
+        'navy': '#192E54',
+        'btn': '#3B4251'
       },
       fontFamily: {
         'inter': 'Inter'
@@ -81,6 +93,13 @@ module.exports = {
       margin: {
         '0.5vw': '0.5vw',
         '2vw': '2vw'
+      },
+      borderColor: {
+        'btn': '#3B4251',
+        'curr': '#3196DF'
+      },
+      borderWidth: {
+        'width': '0.7vw'
       }
     },
   },
