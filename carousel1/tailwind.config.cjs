@@ -16,7 +16,12 @@ module.exports = {
         '80%': '80%',
         '0.5vw': '0.5vw',
         '1vw': '1vw',
-        '70vw': '70vh'
+        '2.5vw': '2.5vw',
+        '70vw': '70vh',
+        '80vw': '80vh',
+        '70%': '70%',
+        '4vw': '4vw',
+        '7vw': '7vw'
       },
       width: {
         '50px': '50px',
@@ -32,7 +37,10 @@ module.exports = {
         '2.5vw': '2.5vw',
         '1vw': '1vw',
         '15vw': '15vw',
-        '2vw': '2vw'
+        '2vw': '2vw',
+        'p': '100vh',
+        '4vw': '4vw',
+        '7vw': '7vw'
       },
       minWidth: {
         '50px': '50px'
@@ -47,7 +55,9 @@ module.exports = {
         '64px': '64px',
         'test': '3vw',
         '1.5vw': '1.5vw',
-        '1vw': '1vw'
+        '1vw': '1vw',
+        'prt': '4vw',
+        '5vw': '5vw'
       },
       dropShadow: {
         'text': [ '0 20px 8px rgb(0 0 0 / 0.04)',
@@ -80,7 +90,9 @@ module.exports = {
       },
       margin: {
         '0.5vw': '0.5vw',
-        '2vw': '2vw'
+        '2vw': '2vw',
+        'p': '10vh',
+        '1vw': '1vw'
       }
     },
   },
