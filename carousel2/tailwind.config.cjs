@@ -25,7 +25,10 @@ module.exports = {
         '0.5vw': '0.5vw',
         '1vw': '1vw',
         '70vw': '80vh',
-        't': '5vw'
+        't': '5vw',
+        '50vh': '50vh',
+        'p': '6vw',
+        '4vw': '4vw'
       },
       width: {
         '50px': '50px',
@@ -42,7 +45,9 @@ module.exports = {
         '1vw': '1vw',
         '15vw': '15vw',
         '2vw': '2vw',
-        '5vw': '10vw'
+        '5vw': '10vw',
+        'p': '11vw',
+        '4vw': '4vw'
       },
       minWidth: {
         '50px': '50px'

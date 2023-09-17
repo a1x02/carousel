@@ -44,7 +44,7 @@
     export let counter
 </script>
 
-<div class="w-full flex h-70vw" bind:this={slider}>
+<div class="w-full flex h-70vw portrait:h-50vh" bind:this={slider}>
     {#if counter == 1}
     <Slide
         src={sources[sources.length-1].image}
